@@ -13,6 +13,9 @@ const noteSchema = mongoose.Schema({
    title: {
     type: String,
    },
+   content: {
+      type: String,
+     },
    dateAdded: {
     type: Date,
     default: Date.now,
